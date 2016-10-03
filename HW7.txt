@@ -67,7 +67,46 @@ return false
 end
 }
 
+Q5:arr.push   (17, 24, 4, 26, 19, 30, 2, 66, 40)
+while (0 < 999999) {
+  statement
+}
 
+if ('isOdd a[0]');
+consol.log if a[0] < min 
+min= a[0] is odd
+end if
+else
+if ('isEven a[0]');
+print a[i] is even
+if a[i] < min then
+min= a[i] is even
+end if
+increment by 1
+end while
+consol.log min;
+function isEven(number){
+    
+if(number%2 === 0){
+        return true;
+    }
+    
+else{
+        return false
+    }
+
+}
+function isOdd(number)
+{
+    if(number%2 !== 0){
+        return true;
+    }
+   
+ else{
+        return false
+    }
+
+}
 
 
 
