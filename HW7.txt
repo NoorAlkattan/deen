@@ -1,0 +1,133 @@
+Q1: Answer.  variable I=0
+
+While (i < lenght.A)
+If a[i] divided 2 with reminder 
+Print a[i]
+end if
+Increment by 1
+
+End while
+
+Q2: Answer i=0 , min= infinte
+
+while (i < length.A)
+if a[i] divided by 2 with reminder 
+print a[i]
+if a[i] < min then
+min= a[i]
+end if 
+end if
+increment by 1
+end while
+print min
+
+Q3: Answer i=0 min=infinte
+while (i < length.A ) 
+if isOdd a[i] then
+print a[i] is odd
+if A[i] < min then
+min= a[i] odd
+end if
+end if
+ecrement by 1
+print min
+
+function isOdd (number)}{
+if number is devided by 2 with reminder 
+return true 
+else 
+return false
+end
+}
+
+
+Q4: Answer i=0 mineven= infinite , minodd=infinite , min= infinty
+
+while ( i < length.A)
+if isOdd a[i] then
+print a[i] is Odd
+if a[i] < min then
+min= a[i] is odd
+end if
+else
+
+print a[i] is even
+if a[i] < min then
+min= a[i] is even
+end if
+increment by 1
+end while
+print min
+
+function isOdd (number)}{
+if number is devided by 2 with reminder 
+return true 
+else 
+return false
+end
+}
+
+
+
+
+
+
+
+Q7:
+
+function isEven(number){
+    
+if(number%2 === 0){
+        return true;
+    }
+    
+else{
+        return false
+    }
+
+}
+function isOdd(number)
+{
+    if(number%2 !== 0){
+        return true;
+    }
+   
+ else{
+        return false
+    }
+
+}
+
+function myFunction(A,B,C,D,E){
+    
+if(isEven(A)) {
+        console.log("BLUE");
+    }
+
+   if(isEven(B) && C>5) {
+        console.log("GREEN");
+    }
+
+    if(isEven(B) && C < 5 ) {
+        if(isOdd(E)){
+            console.log("YELLOW")    
+        } 
+
+    }
+}
+
+myFunction(2,2,3,1,2)
+
+
+
+
+Q8:Answer:
+History | awk ‘{print $1 “\t”  $2 “\t”  $3 “\t” $ 4}’
+
+
+Q9:Answer
+Wget  google.com
+grep “function”  index.html ; wc  -l index.html
+
+
+
