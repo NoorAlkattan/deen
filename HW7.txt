@@ -73,30 +73,10 @@ end
 
 
 
+
+
+
 Q7:
-
-function isEven(number){
-    
-if(number%2 === 0){
-        return true;
-    }
-    
-else{
-        return false
-    }
-
-}
-function isOdd(number)
-{
-    if(number%2 !== 0){
-        return true;
-    }
-   
- else{
-        return false
-    }
-
-}
 
 function myFunction(A,B,C,D,E){
     
@@ -122,12 +102,12 @@ myFunction(2,2,3,1,2)
 
 
 Q8:Answer:
-History | awk ‘{print $1 “\t”  $2 “\t”  $3 “\t” $ 4}’
+History | awk â€˜{print $1 â€œ\tâ€  $2 â€œ\tâ€  $3 â€œ\tâ€ $ 4}â€™
 
 
 Q9:Answer
 Wget  google.com
-grep “function”  index.html ; wc  -l index.html
+grep â€œfunctionâ€  index.html ; wc  -l index.html
 
 
 
